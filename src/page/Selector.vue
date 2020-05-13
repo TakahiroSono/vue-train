@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Title title='セレクタの説明'></Title>
-    <h1 class="first">hello</h1>
+    <Title title='詳細度/優先順位'></Title>
+    <h1 class="first" id="jsFirst">hello</h1>
     <h2 id="second">hello</h2>
     <h3>hello</h3>
     <h4>hello</h4>
@@ -21,11 +21,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.first{
+// .first{
+//   font-size: 32px;
+//   color: blue;
+// }
+// #second {
+//   font-size: 28px;
+//   color: pink;
+// }
+h1 {
   font-size: 32px;
   color: red;
 }
-#second {
+h2 {
   font-size: 28px;
   color: rgba($color: #bbcc00, $alpha: 1.0);
 }

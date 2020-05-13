@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1{
+h1 {
   font-size: 32px;
   color: red;
 }
