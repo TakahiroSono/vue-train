@@ -2,7 +2,6 @@
   <div id="app">
     <ui class="nav">
       <router-link to="/hello" tag="li"><a class="nav_item">導入</a></router-link>
-      <router-link to="/selector" tag="li"><a class="nav_item">セレクタの説明</a></router-link>
       <router-link to="/selector" tag="li"><a class="nav_item">詳細度/優先順位</a></router-link>
       <router-link to="/responsive" tag="li"><a class="nav_item">レスポンシブ</a></router-link>
     </ui>
@@ -36,8 +35,11 @@ export default {
   height: 50px;
   list-style: none;
   justify-content: space-around;
+  li {
+    width: 30%;
+  }
   &_item{
-    width: 20%;
+    width: 100%;
     line-height: 30px;
     font-size: 20px;
   }
