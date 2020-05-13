@@ -3,6 +3,7 @@
     <ui class="nav">
       <router-link to="/hello" tag="li"><a class="nav_item">導入</a></router-link>
       <router-link to="/selector" tag="li"><a class="nav_item">セレクタの説明</a></router-link>
+      <router-link to="/responsive" tag="li"><a class="nav_item">レスポンシブ</a></router-link>
     </ui>
   <router-view></router-view>
   </div>
