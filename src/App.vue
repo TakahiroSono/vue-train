@@ -4,6 +4,7 @@
       <router-link to="/hello" tag="li"><a class="nav_item">導入</a></router-link>
       <router-link to="/selector" tag="li"><a class="nav_item">詳細度</a></router-link>
       <router-link to="/responsive" tag="li"><a class="nav_item">レスポンシブ</a></router-link>
+      <router-link to="/question" tag="li"><a class="nav_item">問題</a></router-link>
     </ui>
     <hr>
   <router-view></router-view>
@@ -44,7 +45,7 @@ export default {
     height: 60px;
   }
   li {
-    width: 30%;
+    width: 20%;
   }
   &_item{
     width: 100%;
